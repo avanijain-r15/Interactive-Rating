@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+
+}
+.body{
+    height: 100vh !important;
+}
+
+.rating{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.rating:hover{
+    color: black;
+    background-color: white;
+}
+
+#displayHeading{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(25, 97%, 53%);
+    font-size: 0.8em;
+}
+
+.selected{
+    background-color: hsl(25, 97%, 53%);
+}
+.custom-btn{
+    width: 85%;
+    height: 13%;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.custom-btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color:hsl(0, 0%, 100%);
+}
+
+.container{
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+.rate-card{
+    background-color: hsl(213, 19%, 18%);
+    width: 25%;
+    height:50% ;
+}
+.thank-you{
+    background-color: hsl(213, 19%, 18%);
+    width: 30%;
+    height:50% ;
+    z-index: -1;
+}
+
+.star{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);
+
+}
+
+.fs-cust{
+    font-size: 0.8em;
+    width: 85%;
+}
+
+.text-white{
+    color: white;
+}
+
+@media(max-width:375px){
+    .rate-card{
+        width:75%;
+    }
+}
+
+@media (max-width:992px) {
+    .rate-card{
+        width: max-content;
+    }
+}
